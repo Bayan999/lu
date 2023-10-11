@@ -1,0 +1,14 @@
+//
+//  File.swift
+//  lu
+//
+//  Created by Bayan on 26/03/1445 AH.
+//
+
+import Foundation
+struct OnbordingData :Hashable,Identifiable{
+    let id: Int
+    static let list:[OnbordingData]=[OnbordingData(id: 0),OnbordingData(id: 1),OnbordingData(id: 2)]
+    
+    
+}
